@@ -5,7 +5,7 @@ This will be a website that will allow anonymous people to leave things they are
 Between 2010-2015 there was a fairly popular concept of posting anonymous one off messages to a website. Be it for venting, bragging, confessing, or encouragement to others. 
 
 ## **Design Concept**
-For my design, I want the main view to be a selection of 5 to 10 random messages others have left. The user will have the ability to refresh the page for more random messages or add one of their own. If the content passes automated moderation, it will be added to the list, then the user will be barred for a day or so from posting. The message will be stored into a database that keeps the time, date, message, and optionally the general location of where it was sent from. The user would be able to choose to get messages that are completely random, from a chosen area, or chosen time frame.
+For my design, I want the main view to be a selection of 5 to 10 random messages others have left. The user will have the ability to refresh the page for more random messages or add one of their own. If the content passes automated moderation, it will be added to the list, then the user will be barred for a day or so from posting. The message will be stored into a database that keeps the time, date, message, and optionally the general location of where it was sent from. The user would be able to choose to get messages that are completely random, from a chosen area, or chosen time frame. The aesthetic design is to make the messages seem even more fleeting by making the aesthetic more liminal.
 
 ### *Homepage*:
 It will consist of the initial selection of random messages and buttons to refresh the page for different messages
