@@ -1,7 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using Words_from_Strangers.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
+// Add EF Core DI
+builder.Services.AddDbContext<MessageContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("MessageContext")));
+
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
+});
 
 var app = builder.Build();
 

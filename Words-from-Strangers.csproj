@@ -7,4 +7,22 @@
     <RootNamespace>Words_from_Strangers</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Images\About.png" />
+    <None Include="wwwroot\Images\Cancel_Icon.png" />
+    <None Include="wwwroot\Images\Home.png" />
+    <None Include="wwwroot\Images\Logo.png" />
+    <None Include="wwwroot\Images\Refresh_Icon.png" />
+    <None Include="wwwroot\Images\Submit.png" />
+    <None Include="wwwroot\Images\synthwave_wallpaper_by_frozenskullvfx_dbkpxz5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>

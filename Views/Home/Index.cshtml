@@ -1,8 +1,13 @@
-﻿@{
+﻿@model List<Message>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>I have changed the page in some way</p>
-</div>
+@foreach (var message in Model)
+{
+    <div class="mb-3">
+        <h4>@message.MessageText</h4>
+        <p>@message.Name — @message.Location</p>
+    </div>
+}
