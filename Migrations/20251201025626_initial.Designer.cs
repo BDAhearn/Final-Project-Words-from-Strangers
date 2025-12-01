@@ -12,8 +12,8 @@ using Words_from_Strangers.Models;
 namespace Words_from_Strangers.Migrations
 {
     [DbContext(typeof(MessageContext))]
-    [Migration("20251129023350_Initial")]
-    partial class Initial
+    [Migration("20251201025626_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -54,7 +54,7 @@ namespace Words_from_Strangers.Migrations
                         new
                         {
                             MessageId = 1,
-                            DateAdded = new DateTime(2025, 11, 28, 21, 33, 49, 969, DateTimeKind.Local).AddTicks(5181),
+                            DateAdded = new DateTime(2025, 11, 30, 21, 56, 26, 9, DateTimeKind.Local).AddTicks(5185),
                             Location = "Earth",
                             MessageText = "Hello World",
                             Name = "BDAhearn"
@@ -113,7 +113,7 @@ namespace Words_from_Strangers.Migrations
                             MessageId = 9,
                             DateAdded = new DateTime(2019, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Location = "Universe B",
-                            MessageText = "It's great an Earth day is 25 hours long",
+                            MessageText = "do a sleep",
                             Name = "Asher"
                         },
                         new

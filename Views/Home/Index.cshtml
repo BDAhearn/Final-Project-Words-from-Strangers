@@ -6,8 +6,15 @@
 
 @foreach (var message in Model)
 {
-    <div class="mb-3">
-        <h4>@message.MessageText</h4>
-        <p>@message.Name — @message.Location</p>
+
+    var _message = "";
+
+    <div class="mb-3 border bg-opacity-80" style="background-color:#0a2f24" height=16%>
+        <h4 class="text-light ">@message.MessageText</h4>
+        @if (!string.IsNullOrEmpty(message.Name))
+            _message += message.Name + " | ";
+        @if (!string.IsNullOrEmpty(message.Location))
+            _message += @message.Location + " | ";}
+        <p class="text-light">@_message @message.DateAdded</p>
     </div>
 }

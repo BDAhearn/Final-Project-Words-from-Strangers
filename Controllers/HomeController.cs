@@ -24,6 +24,9 @@ namespace Words_from_Strangers.Controllers
             return View(randomMessages);
         }
 
-
+        public IActionResult About()
+        {
+            return View("About");
+        }
     }
 }

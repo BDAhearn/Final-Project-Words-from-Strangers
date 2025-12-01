@@ -21,7 +21,7 @@ namespace Words_from_Strangers.Models
                 new Message { MessageId = 6, DateAdded = new DateTime(2023, 4, 17), MessageText = "I can't wait to start this bonfire", Location = "Lordran" },
                 new Message { MessageId = 7, DateAdded = new DateTime(2025, 8, 11), MessageText = "I have not seen the sun for a long time. Perhaps I could do with a change... ", Location = "New Londo" },
                 new Message { MessageId = 8, DateAdded = new DateTime(2012, 11, 26), MessageText = "Hey guys, I think Im lost" },
-                new Message { MessageId = 9, DateAdded = new DateTime(2019, 12, 22), MessageText = "It's great an Earth day is 25 hours long", Name = "Asher", Location = "Universe B" },
+                new Message { MessageId = 9, DateAdded = new DateTime(2019, 12, 22), MessageText = "do a sleep", Name = "Asher", Location = "Universe B" },
                 new Message { MessageId = 10, DateAdded = new DateTime(2000, 10, 18), MessageText = "Who am I? Where am I?" },
                 new Message { MessageId = 11, DateAdded = new DateTime(2011, 4, 7), MessageText = "All your base are belong to us", Name = "Aila" },
                 new Message { MessageId = 12, DateAdded = new DateTime(2014, 6, 6), MessageText = "Have you really been far even as decided to use even go want to do look more like?", Name = "Claire" },
